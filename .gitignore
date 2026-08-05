@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+
+venv/
+.env
+
+.idea/
+.vscode/
+
+datasets/
+
+*.h5
+*.pkl
