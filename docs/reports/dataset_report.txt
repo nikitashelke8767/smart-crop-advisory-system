@@ -1,0 +1,50 @@
+================================================================================
+            PLANT DISEASE DETECTION DATASET ANALYSIS REPORT
+================================================================================
+Dataset Path       : C:\Users\nikit\Downloads\smart-crop-advisory-system\smart-crop-advisory-system\datasets\plantvillage\Tomato
+Total Classes      : 10
+Total Images       : 14529
+Total Valid Images : 14529
+Total Corrupted    : 0
+
+--------------------------------------------------------------------------------
+1. CLASS DISTRIBUTION SUMMARY
+--------------------------------------------------------------------------------
+                                   class_name  total_files  valid_images  corrupted_images  percentage (%)
+                      Tomato___Bacterial_spot         1702          1702                 0           11.71
+                        Tomato___Early_blight          800           800                 0            5.51
+                         Tomato___Late_blight         1527          1527                 0           10.51
+                           Tomato___Leaf_Mold          761           761                 0            5.24
+                  Tomato___Septoria_leaf_spot         1417          1417                 0            9.75
+Tomato___Spider_mites Two-spotted_spider_mite         1341          1341                 0            9.23
+                         Tomato___Target_Spot         1123          1123                 0            7.73
+       Tomato___Tomato_Yellow_Leaf_Curl_Virus         4286          4286                 0           29.50
+                 Tomato___Tomato_mosaic_virus          299           299                 0            2.06
+                             Tomato___healthy         1273          1273                 0            8.76
+
+--------------------------------------------------------------------------------
+2. DATASET STATISTICAL SUMMARY
+--------------------------------------------------------------------------------
+Mean Images per Class   : 1452.90
+Std Dev                 : 1079.38
+Min Images in a Class   : 299
+25th Percentile (Q1)    : 881
+50th Percentile (Median): 1307
+75th Percentile (Q3)    : 1500
+Max Images in a Class   : 4286
+
+--------------------------------------------------------------------------------
+3. IMAGE RESOLUTION & COLOR MODE ANALYSIS
+--------------------------------------------------------------------------------
+Width Range             : 256px - 256px (Avg: 256.0px)
+Height Range            : 256px - 256px (Avg: 256.0px)
+Color Modes             : {'RGB': np.int64(14529)}
+
+--------------------------------------------------------------------------------
+4. CORRUPTED IMAGES AUDIT
+--------------------------------------------------------------------------------
+SUCCESS: 0 corrupted images detected. All dataset images are healthy and readable.
+
+================================================================================
+END OF REPORT
+================================================================================

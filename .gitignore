@@ -1,13 +1,42 @@
+# Python
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
 
+# Virtual Environments
 venv/
+env/
+.venv/
+
+# Environment Variables
 .env
 
-.idea/
+# IDE Files
 .vscode/
+.idea/
 
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Temporary uploads
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# TensorFlow checkpoints (temporary)
+checkpoint
+*.ckpt
+*.index
+
+# Cache
+.cache/
+
+# Large datasets
 datasets/
-
-*.h5
-*.pkl
