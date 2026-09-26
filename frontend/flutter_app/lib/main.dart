@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'screens/login_screen.dart';
 
 void main() {
   runApp(const SmartCropApp());
@@ -11,8 +12,12 @@ class SmartCropApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Smart Crop Advisory',
-      theme: ThemeData(primarySwatch: Colors.green),
-      home: const Scaffold(body: Center(child: Text('Smart Crop Advisory App'))),
+      debugShowCheckedModeBanner: false,
+      theme: ThemeData(
+        colorScheme: ColorScheme.fromSeed(seedColor: const Color(0xFF2E7D32)),
+        useMaterial3: true,
+      ),
+      home: const LoginScreen(),
     );
   }
 }
